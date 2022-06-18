@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
+    background: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+.first-content{
+    padding: 2em;
+    height: 10%;
+    text-align: left;
+    display: grid;
+    
+}
+.first-content h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-size: bold;
+}
+.first-content h4{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.second-content{
+    padding: 2em;
+    height: 50%;
+    align-items: center;
+}
+.second-content .button-1{
+    width: 370px;
+    height: 40px;
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.second-content table{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em;
+    height: 50%;
+    width: 80%;
+}
+.second-content table tr{
+    width: 50px;
+    height: 40px;
+    background:  hsl(0, 0%, 100%);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.second-content table tr td input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-color: rgba(243, 236, 236, 0.219);
+    border-radius: 5px;
+}
+.button-2{
+    width: 300px;
+    height: 40px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-2 h4{
+    color: white;
+}
+.button-2:hover{
+    background-color: hsl(154, 65%, 28%);
+}
+.second-content table tr td h5{
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+.second-content table tr td h5 b{
+    color: red;
+}
